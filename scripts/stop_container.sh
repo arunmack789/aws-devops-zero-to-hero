@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-#hello
+#hello world
 # Stop the running container (if any)
 containerids=$(docker ps -q)
 if [ -n "$containerids" ]; then
